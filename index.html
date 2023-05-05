@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Stay updated</h2>
+        <form class="signup-form">
+          <div class="address-input-container">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class="email-input"
+              data-lpignore="true"
+            />
+            <button type="submit">Sign Up</button>
+          </div>
+          <div class="error-msg">Please enter a valid email address.</div>
+          <div class="checkbox-container">
+            <div class="checkbox-item">
+              <input type="checkbox" name="news" id="news" />
+              <label for="news"><span></span>News</label>
+            </div>
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                name="events-workshops"
+                id="events-workshops"
+              />
+              <label for="events-workshops">
+                <span></span>Events & Workshops
+              </label>
+            </div>
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                name="quarterly-reports"
+                id="quarterly-reports"
+              />
+              <label for="quarterly-reports">
+                <span></span>Quarterly Reports
+              </label>
+            </div>
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                name="annual-reports"
+                id="annual-reports"
+              />
+              <label for="annual-reports"><span></span>Annual Reports</label>
+            </div>
+
+            <div class="checkbox-item">
+              <input type="checkbox" name="articles" id="articles" />
+
+              <label for="articles"><span></span>Articles</label>
+            </div>
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                name="seminars-courses"
+                id="seminars-courses"
+              />
+              <label for="seminars-courses">
+                <span></span>
+                Seminars & Courses
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <a href="#" class="unsubscribe">Unsubscribe</a>
+      </div>
+    </div>
+    <!-- This design can be found at https://uidesigndaily.com/posts/xd-subscribe-form-checkbox-input-day-1404 -->
+    <script src="script.js"></script>
+  </body>
+</html>
